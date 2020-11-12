@@ -1,0 +1,406 @@
+html{
+  height: 100%;
+  font-size: 20px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: gray;
+  font-weight: 400;
+
+}
+.container__barcharts{
+  width: 480px;
+  margin: 0 auto;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  min-height: 480px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#output{
+  color: black;
+  position: relative;
+}
+#bars__index{
+  
+  color: black;
+  margin-left: 50px;
+}
+#bar  {
+  position: absolute;
+  top: 2%;
+  width: 20%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar1{
+  position: absolute;
+  top: 7%;
+  width: 30%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar2{ position: absolute;
+  top: 12%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar3{ position: absolute;
+  top: 17%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar4{
+  position: absolute;
+  top: 22%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar5{
+  position: absolute;
+  top: 27%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar6{
+  position: absolute;
+  top: 32%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar7{
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+
+#bar8{
+  position: absolute;
+  top: 42%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar9{
+  position: absolute;
+  top: 47%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar10{
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar11{
+  position: absolute;
+  top: 57%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar12{
+  position: absolute;
+  top: 62%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar13{
+  position: absolute;
+  top: 67%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar14{
+  position: absolute;
+  top: 72%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar15{
+  position: absolute;
+  top: 77%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar16{
+  position: absolute;
+  top: 82%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar17{
+  position: absolute;
+  top: 87%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar18{
+  position: absolute;
+  top: 92%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+#bar19{
+  position: absolute;
+  top: 97%;
+  width: 100%;
+  height: 5px;
+  margin-left: 35px;
+  float: left;
+}
+.bar-inner{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+.bar-inner::after{
+  position: absolute;
+  font-size: 12px;
+  }
+
+.bar-inner1{
+  background-color: yellow;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+.bar-inner1::after{
+  position: absolute;
+  font-size: 12px;
+  }
+
+.bar-inner2{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+
+.bar-inner3{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner4{
+  background-color:red;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner5{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner6{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner7{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+
+.bar-inner8{
+  background-color: yellow;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner9{
+  background-color: red;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner10{
+  background-color: red;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner11{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+.bar-inner12{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner13{
+  background-color: red;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner14{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner15{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner16{
+  background-color: red;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner17{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner18{
+  background-color: green;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+.bar-inner19{
+  background-color: red;
+  width: 0%;
+  height:100% ;
+  position: relative;
+  -webkit-transition: width 3000ms linear;
+  -moz-transition:width 3000ms linear ;
+  transition: width 3000ms linear;
+}
+
+
+
+
+
+
